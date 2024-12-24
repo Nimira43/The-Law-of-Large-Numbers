@@ -1,0 +1,1 @@
+print('Law of Large Numbers')

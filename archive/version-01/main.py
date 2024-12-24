@@ -5,9 +5,8 @@ import numpy as np
 population_size = 2.3e5
 print('Population Size: ', population_size)
 
-# Generate frequency value (f) and handle division by zero
-epsilon = 1e-10 # small value to avoid division by 0
-f = np.linspace(0, 5, 18) + epsilon
+# Generate frequency value (f)
+f = np.logspace(0.001, 5, 18)
 print('Frequency value (f): ', f)
 
 inverse_f = 1 / f

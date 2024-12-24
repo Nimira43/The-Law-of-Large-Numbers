@@ -26,8 +26,19 @@ print('[*] Number of Sample: ', number_of_samples)
 print('[-----------------------------------------------]')
 print
 
-# Random Sampling
+# Setting skip variable
+skip = int(1e3)
 
+# Shuffling Population Data
+# np.random.shuffle(population)
+
+# Plot the Inverse Values with Skipping - with or without shuffle
+plt.plot(population[::skip], 'o')
+plt.xlabel('Sample')
+plt.ylabel('Data Value')
+plt.show()
+
+# Random Sampling
 print('[*] Random Sample of 50 from Population:', np.random.choice(population, size=sample_size))
 print('[*] Mean of Another Random Sample of 50: ', np.mean(np.random.choice(population, size=sample_size)))
 print('[-----------------------------------------------]')

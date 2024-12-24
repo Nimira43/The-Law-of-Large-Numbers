@@ -23,10 +23,12 @@
 #### Sample Means Calculation:
 
 ###### Draws multiple samples, calculates the mean of each sample, and stores these means in an array.
+###### Print Statements: Added inline print statements to document the mean of each sample as it is calculated.
 
 #### Plotting:
 
 ###### Plots the sample means using a scatter plot.
+###### Outputs the overall mean and standard deviation of the sample means.
 
 ## Outcome
 

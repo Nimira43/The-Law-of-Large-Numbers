@@ -37,6 +37,16 @@ sample_means = np.zeros(number_of_samples)
 for experiment_i in range(number_of_samples):
   random_sample = np.random.choice(population, size=sample_size)
   sample_means[experiment_i] = np.mean(random_sample)
-  
+
+print('[*] Overall Mean of Sample Means: ', np.mean(sample_means)) 
+print('[*] Standard Deviation of Sample Means: ', np.std(sample_means)) 
+print('[-----------------------------------------------]')
+
 plt.plot(sample_means, 'ko', label='Sample Means')
-plt.show()
+plt.xlabel('Sample Index') 
+plt.ylabel('Sample Mean Value') 
+plt.title('Distribution of Sample Means') 
+plt.legend() 
+plt.show() 
+
+

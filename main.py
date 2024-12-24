@@ -5,7 +5,7 @@ import numpy as np
 population_size = 2.3e5
 
 # Sampling Parameters
-sample_size = 50
+sample_size = 500
 number_of_samples = 500
 
 # Generate Population of Numbers

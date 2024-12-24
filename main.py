@@ -28,6 +28,7 @@ print
 
 # Random Sampling
 print('[*] Random Sample of 50 from Population:', np.random.choice(population, size=sample_size))
+print('[-----------------------------------------------]')
 print('[*] Mean of Another Random Sample of 50: ', np.mean(np.random.choice(population, size=sample_size)))
 print('[-----------------------------------------------]')
 

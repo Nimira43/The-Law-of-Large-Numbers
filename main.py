@@ -44,6 +44,7 @@ print('[*] Standard Deviation of Sample Means: ', np.std(sample_means))
 print('[-----------------------------------------------]')
 
 plt.plot(sample_means, 'ko', label='Sample Means')
+plt.plot([0, number_of_samples], [true_mean, true_mean], 'r')
 plt.xlabel('Sample Index') 
 plt.ylabel('Sample Mean Value') 
 plt.title('Distribution of Sample Means') 

@@ -11,5 +11,7 @@ print('Population of Numbers: ', population)
 # Plot the Inverse Values with Skipping
 skip = int(1e3)
 plt.plot(population[::skip], 'o')
+plt.xlabel('Sample')
+plt.ylabel('Data Value')
 plt.show()
 
